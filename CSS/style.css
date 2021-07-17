@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.header{
+    width: 100%;
+    height: 160px;
+    display: block;
+    background-color: #101010;
+}
+
+.inner-header{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color:#101010
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1{
+    color: ghostwhite;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 50;
+}
+
+.logo_container h1 span{
+    font-weight: 800;
+}
+.navigation{
+    float: right;
+    height: 100%;
+}
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a:last-child{
+     padding-right: 0;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color:ghostwhite;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-section{
+    background: rgb(254,255,0);
+    background: linear-gradient(0deg, rgba(254,255,0,1) 0%, rgba(255,0,95,1) 100%);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    color: ghostwhite;
+    font-size: 25px;
+ 
+}
+
+
+.card-container{
+    background-color: lavender;
+    border-radius: 50px;
+    padding: 50px;
+    max-width: 500px;
+    
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: black;
+    color: ghostwhite;
+    font-family: 'Montserrat';
+
+}
+
+footer{
+    height: 50px;
+    padding: 25px;
+    text-align: center;
+    background-color: black;
+    color: ghostwhite;
+}
+
